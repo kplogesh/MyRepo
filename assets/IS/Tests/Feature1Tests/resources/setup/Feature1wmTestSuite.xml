@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="Feature1">
+    <webMethodsTestCase name="AdditionServiceTests">
+        <service folder="DBTest1.services" name="additions">
+            <input>
+                <file filename="resources/data/additions_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/additions_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
